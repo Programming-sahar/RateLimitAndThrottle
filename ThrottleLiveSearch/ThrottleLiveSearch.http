@@ -1,0 +1,6 @@
+@ThrottleLiveSearch_HostAddress = http://localhost:5208
+
+GET {{ThrottleLiveSearch_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
