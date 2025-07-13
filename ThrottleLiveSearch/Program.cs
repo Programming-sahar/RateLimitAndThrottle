@@ -23,7 +23,8 @@ builder.Services.AddScoped<IStaticSearchService, StaticSearchService>();
 
 var app = builder.Build();
 
-app.UseMiddleware<ThrottleMiddleware>();
+// if you want to use Middleware:
+//app.UseMiddleware<ThrottleMiddleware>();
 
 
 
